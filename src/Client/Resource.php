@@ -15,9 +15,9 @@ abstract class Resource
     const FETCH_PROMISE = 'promise';
 
     /**
-     * @var HttpClient|HttpAsyncClient
+     * @var FlexibleHttpClient
      */
-    protected $httpAsyncClient;
+    protected httpClient;
 
     /**
      * @var MessageFactory
